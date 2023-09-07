@@ -1,0 +1,282 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem ;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.hero__illustration--box {
+    width: 50%;
+    order: 2;
+}
+
+.hero__text--box {
+    width: 50%;
+    order: 1;
+}
+
+.hero__illustration {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero__heading--primary {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.hero__heading {
+    font-size: 3.5rem;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 1.5rem;
+}
+
+.hero__discription {
+    max-width: 51rem;
+    margin-bottom: 2rem;
+}
+
+.hero__form {
+    width: 51rem;
+}
+
+.hero__form--input {
+    padding: 1rem;
+    width: 55%;
+    margin-right: 1.5rem;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    background-color: rgb(48, 101, 248);
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background-color: rgba(48, 101, 248,0.8);
+    cursor: pointer;
+}
+
+.section-1 {
+    display: flex;
+    background-color: hsla(240, 75%, 98%,0.8);
+    padding: 5rem;
+    position: relative;
+   
+}
+
+.section-1__illustration--box {
+    width: 45%;
+}
+
+.section-1__text--box {
+    width: 55%;
+}
+
+.section-1__illustration {
+    width: 100%;
+}
+
+.hero {
+    margin-bottom: 15rem;
+}
+
+.section-1__heading {
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.section-1__description {
+    width: 52rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    margin-bottom: 6rem;
+}
+.cta:hover{
+    color: hsla(170, 45%, 43%);
+    cursor: pointer;
+}
+
+
+
+
+.testimonial {
+    width: 38rem;
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+.testimonial__quote {
+    margin-bottom: 1rem;
+}
+
+.testimonial__comment {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.testifier {
+    display: flex;
+    gap: 2rem;
+}
+
+.testifier__img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.testifier__name {
+    font-size: 1.7rem;
+    display: block;
+}
+
+.testifier__position {
+    font-size: 1.3rem;
+}
+
+.section-2 {
+    width: 51rem 45%;
+    background-color: hsl(238, 22%, 44%);
+    padding: 10rem 5rem 6rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.section-2__heading {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-2__text--box {
+    line-height: 2.5rem;
+    color: white;
+    width: 51rem;
+}
+
+.section-2__form-input {
+    width: 85%;
+    padding: 1rem 1.5rem;
+    outline: none;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.somto {
+    width: 45%;
+}
+.footer{
+    background-color:  hsl(243, 87%, 12%);
+    padding:8rem 5rem 2rem ;
+}
+.footer__logo--box{
+    margin-bottom: 2.5rem;
+    color: white;
+}
+.footer__links li a:hover{
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
+
+}
+.footer__links--box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+.footer__links{
+    list-style: none;
+   
+    
+}
+.footer__links li a{
+    color: white;
+    text-decoration: none;
+
+}
+.tell{
+    color: white;
+    margin-left: 2rem;
+}
+.footer__links li{
+    margin-bottom: 2rem;
+}
+.u-flex{
+    display: flex;
+    gap: 2rem;
+}
+.u-flex li{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: .3rem;
+}
+.bg-curve{
+position: absolute;
+left: 0%;
+top: -7rem;
+width: 100%;
+}
